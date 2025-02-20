@@ -6,15 +6,17 @@ This repository contains tutorials and implementations of working with APIs usin
 - Authenticating and connecting to APIs  
 - Fetching data from external sources (e.g., Spotify API)  
 - Handling API responses and errors  
-- Storing and processing API data  
 
 ## 📂 Project Structure  
+```
 /API_Tutorial 
-│── /notebooks # Jupyter notebooks for interactive API exploration 
-│── /scripts # Python scripts for API calls 
-│── /data # Sample API responses and processed data 
-│── README.md # Project documentation 
-│── requirements.txt # Dependencies
+│── /notebooks         # Jupyter notebooks for interactive API exploration 
+│── /scripts           # Python scripts for API calls 
+│── /data              # Sample API responses and processed data 
+│── README.md          # Project documentation 
+│── requirements.txt   # Dependencies
+```
+
 
 ## 🔧 Setup  
 1. Clone the repository:  
