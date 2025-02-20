@@ -9,56 +9,52 @@ This repository contains tutorials and implementations of working with APIs usin
 - Storing and processing API data  
 
 ## 📂 Project Structure  
-/API_Tutorial │── /notebooks # Jupyter notebooks for interactive API exploration │── /scripts # Python scripts for API calls │── /data # Sample API responses and processed data │── README.md # Project documentation │── requirements.txt # Dependencies
-
-bash
-Copy
-Edit
+/API_Tutorial 
+│── /notebooks # Jupyter notebooks for interactive API exploration 
+│── /scripts # Python scripts for API calls 
+│── /data # Sample API responses and processed data 
+│── README.md # Project documentation 
+│── requirements.txt # Dependencies
 
 ## 🔧 Setup  
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/amnah18/API_Tutorial.git
-Navigate to the project directory:
-bash
-Copy
-Edit
+```bash
+git clone https://github.com/amnah18/API_Tutorial.git
+```
+2. Navigate to the project directory:
+```bash
 cd API_Tutorial
-Create a virtual environment and activate it:
-bash
-Copy
-Edit
+```
+3. Create a virtual environment and activate it:
+```bash
 python -m venv venv  
 source venv/bin/activate  # On macOS/Linux  
 venv\Scripts\activate     # On Windows  
-Install dependencies:
-bash
-Copy
-Edit
+```
+4. Install dependencies:
+```bash
 pip install -r requirements.txt  
-🎵 Example: Fetching Data from Spotify API
+```
+## 🎵 Example: Fetching Data from Spotify API
 To fetch data from the Spotify API, follow these steps:
-
-Get your API credentials from Spotify Developer Portal.
+1. Get your API credentials from Spotify Developer Portal.
 Store your credentials in a .env file:
-env
-Copy
-Edit
+```env
 SPOTIFY_CLIENT_ID=your_client_id  
-SPOTIFY_CLIENT_SECRET=your_client_secret  
-Run the script to fetch playlist data:
-bash
-Copy
-Edit
+SPOTIFY_CLIENT_SECRET=your_client_secret 
+``` 
+2. Run the script to fetch playlist data:
+```bash
 python scripts/spotify_fetch.py  
-🛠 Tech Stack
-Python
-Requests (for API calls)
-Spotipy (for Spotify API)
-Pandas (for data handling)
-Jupyter Notebook
-📜 License
+```
+## 🛠 Tech Stack
+1. Python
+2. Requests (for API calls)
+3. Spotipy (for Spotify API)
+4. Pandas (for data handling)
+5. Jupyter Notebook
+## 📜 License
 This project is open-source and available under the MIT License.
 
-📬 Contact
+## 📬 Contact
 For any queries or suggestions, reach out via GitHub Issues.
